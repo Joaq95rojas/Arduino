@@ -1,0 +1,17 @@
+01 - Hora
+02 - HoraLCD
+03 - InterruptTask
+04 - IDBoton
+05 - LogicaBotones
+06 - sensorInductivo
+07 - contPiezas
+08 - Completo
+09 - TaskCom
+10 - QueueSet		<- ANDANDO COMPLETO!!!
+11 - PROGRMEM copia. Usa la memoria Flash para ahorrar RAM.
+12 - Final_v1
+
+---------------------------------------
+Se actualizó la librería "Liquid Crystal"
+Se agregó la librería "Streaming"
+
