@@ -1,0 +1,4 @@
+-completoRTOS_v1: Mezcla "RTOS_v3" de la carpeta \Color con "betaRTOS_v2" de la carpeta \Giroscopio.
+
+
+INCLUDE_vTaskSuspend  = 1 	!!!!!!!!!!!!!!!!!!!!!!

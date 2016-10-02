@@ -1,0 +1,20 @@
+* USAR 25 Hz PARA EL MUESTRO DE DATOS DEL MPU6050!!!!!
+* PONER RESISTORES DE PULL-UP EN SDA Y SCL DE ARDUINO.
+* EN LO POSIBLE, USAR UN LEVEL SHIFTER PARA EVITAR RUIDO.
+//////////////////////////////////////////////////////////////
+Se dejó el FIFO Rate en 0x07 (25 Hz).
+
+Se cambió el GYRO_FACTOR = 131,0 / pow (2 , FS_SEL).
+
+Nos importan las variaciones de Yaw (Beta!!!).
+
+---------------------------------
+
+La medición del Yaw tarda unos segundos en estabilizarse (estabilizarYaw)
+
+Si enciendo los motores una vez estabilizado el Yaw, se vuelve a inestabilizar (medYawDeriva), para ello se encienden los motores 5 segundos después.
+
+Se corregirá el corrimiento del robot en linea recta usando un sistema de control PID (sistControlPID).
+
+-betaRTOS_v1: estabilizarBeta versión FreeRTOS.
+-betaRTOS_v2: Se usa el angulo de Yaw y se agrega la tarea periódica para estabilizar.

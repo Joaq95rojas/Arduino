@@ -1,0 +1,11 @@
+- colorLento_v1..._v4 : Hacen mejoras de tiempo de procesamiento respecto a la versión original.
+- colorLento_v5: No usa la librería TimerOne.h, usa el Timer2 del ATMEGA2560.
+
+- algoritmoColor_v1: Usa colorLento_v4 para mover al robot según el color que detecta.
+- algoritmoColor_v2: Simil _v1 solo que se basa en colorLento_v5.
+
+- colorRTOS_v1: Solo implementa colorLento en FreeRTOS para luego insertarlo en RTOS_v1.
+
+- RTOS_v1: Implementa colorRTOS_v2 y algoritmoColor_v2.
+- RTOS_v2: Agrega el uso del sensor ultrasónico.
+- RTOS_v3: Comunica el HC-SR04 y los motores con una cola para hacer más rápida la respuesta.
