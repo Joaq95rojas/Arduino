@@ -1,0 +1,14 @@
+- EncoderIncremental: Cuenta las vueltas (y los grados) de un encoder.
+			ANDA PERFECTO.
+- IntExterna: Interrupción externa básica.
+- IOTest_v1: Prueba del funcionamiento básico del hardware de la prensa.
+- IOTest_v2: Último programa - Funciona todo junto.
+- LevaLibre: Detecta el Punto Mínimo Inferior.
+------------------------------------------------------------------------
+LECTURA DEL MOTOR QUE MUEVE AL EJE PRINCIPAL USANDO SENSOR OMRON
+- OMRON_v1: Ídem IntExterna.
+- OMRON_v2: Ingresa posición inicial e indica desplazamiento lineal.
+- OMRON_v3: Agrega dirección de movimiento (arriba y abajo).
+		NO ESTÁ PROBADO.
+------------------------------------------------------------------------
+- PulsosPorVuelta: Primera versión del lector del encoder.
