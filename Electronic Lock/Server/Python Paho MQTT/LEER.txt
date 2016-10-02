@@ -1,0 +1,5 @@
+sub_v1: SUBSCRIPTOR EN PYTHON DE TAG RFID
+DB_v1: LECTURA DE BASE DE DATOS DE ACCESS EN PYTHON
+
+HACER: Unir ambos programas.
+	Ver de ejecutar cuando carga el SO.

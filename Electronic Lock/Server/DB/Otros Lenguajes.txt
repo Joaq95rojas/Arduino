@@ -1,0 +1,7 @@
+http://rprogramming.net/connect-to-ms-access-in-r/
+
+http://www.codeguru.com/cpp/data/data-misc/fileinformation/article.php/c10629/Accessing-Your-Database-with-C-Is-as-Easy-as-DTL.htm
+
+http://www.drdobbs.com/c-database-programming-with-odbc/184403098
+
+http://www.easysoft.com/developer/languages/c/
